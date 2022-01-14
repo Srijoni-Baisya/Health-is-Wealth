@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient( 108.4deg, rgba(220,194,255,1) 6.9%, rgba(185,223,248,1) 86.5% );
+    font-family: 'Roboto Slab', serif;
+}
+
+.heading{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightgrey;
+    font-size: 30px;
+}
+
+.options{
+    width: 60%;
+}
+.options img {
+  width: 30%px;
+  height: 300px;
+  display: inline;
+  margin: 5px;
+  background-color: white;
+  border: 10px ridge;
+}
+
+a img{
+    border: 10px ridge;
+    background-color: whi;
+}
+
+
+@media only screen and (max-width: 772px) {    
+    .options img{
+        background-color: white;
+        border: 10px ridge;
+        height: 250px;
+        width: 250px;
+        margin: 5px;
+    }
+    .options{
+        margin-left: -30px;
+    }
+  }

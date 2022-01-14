@@ -1,0 +1,28 @@
+.routine_li{
+    margin-top: 13px;
+}
+.routine_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.routine_li img{
+  border-radius: 25px;  
+  width: 180px;
+  height:180px;
+}
+.routine_li p{
+    margin-top: 10px;
+    width: 100%;
+}
+
+body{
+    background-image: linear-gradient( 108.4deg, rgba(220,194,255,1) 6.9%, rgba(185,223,248,1) 86.5% );
+    font-family: 'Roboto Slab', serif;
+}
+
+.heading{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 28px;
+}
