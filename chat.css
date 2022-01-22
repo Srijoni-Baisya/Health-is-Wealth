@@ -32,7 +32,7 @@ body{
 
 .send_messages{
     bottom: 0;
-    position: fixed;
+
     width: 100%;
 }
 
@@ -56,4 +56,13 @@ body{
     border-radius: 50%;
     border:1px solid black;
     margin-bottom: 20px;
+}
+
+.back{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border:2px solid black;
+    background-image: url("home.jpg");
+    background-size: contain;
 }

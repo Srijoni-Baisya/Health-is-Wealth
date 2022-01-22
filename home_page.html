@@ -21,15 +21,17 @@
 
     <body>
         <center>
-            <h2 class="btn btn-danger heading">Home</h2>
+            <h2 class="btn btn-primary heading">Home</h2>
             <br><br>
             <img src="profile.png" id="profile_photo">
             <br>
 
-            <label class="note">Upload your Profile Photo :</label>
             <br>
-
-            <!--name, age to be filled by the user in the respective input boxes-->
+            <!-----------EDITING DATA -------------------->
+            <div class = "edit">
+                <label class="note">Enter your details or edit them as per requirement :</label>
+                <br>
+                <!--name, age to be filled by the user in the respective input boxes-->
             <input type="text" class="form-control" id="name" placeholder="Name">
             <input type="text" class="form-control" id="age" placeholder="Age">
             
@@ -41,9 +43,21 @@
                 <option value="female">Female</option>
             </select>
             <br><br>
-
+            </div>
+            <!-----------EDITING DATA -------------------->       
             <button class="btn btn-primary" id="btn_save" onclick="save()">Save</button>
-            <br>
+            <br>    
+
+            <!-----------DISPLAYING SAVED DATA ---------------->
+            <div class="edit">
+                <label class="note">Your Details : (Please refresh the page if details are not updated)</label><br>
+                <label id="data_name"></label><br>
+                <label id="data_age"></label><br>
+                <label id="data_gender"></label><br>
+            </div>
+            
+            <!-----------DISPLAYING SAVED DATA ---------------->
+
 
             <!--features included in app-->
             <div class="btn btn-primary features">
@@ -57,6 +71,6 @@
             </div>
         </center>
 
-        <script src="home_page.js"></script>
+        <script src="home_page copy.js"></script>
     </body>
 </html>

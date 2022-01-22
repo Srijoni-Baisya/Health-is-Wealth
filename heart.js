@@ -11,6 +11,8 @@ function heartRate(){
     var compare = "";
     if(heart_rate >= 60 && heart_rate <= 100){
         compare = "Your heart rate is normal.";
+        document.getElementById("tips").style.display = "inline-block";
+        document.getElementById("tips").innerHTML = "Great !! Continue maintaining a healthy lifestyle in order to have a healthy heart rate.";
     }
     else if(heart_rate < 60){
         compare = "Your heart rate is lower than the normal level.";

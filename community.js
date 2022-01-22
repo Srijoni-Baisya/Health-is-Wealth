@@ -26,7 +26,7 @@ function createGroup(){
     localStorage.setItem("group",group_name);
     //window.location="chat.html";
 }
-
+var Groups = "";
 function getData() {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("groups").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
     Groups = childKey; 
     //Start code
@@ -37,14 +37,21 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
     if(Groups == "profiles"){
       document.getElementById(Groups).style.display = "none";
     }
+    if(Groups == "users"){
+      document.getElementById(Groups).style.display = "none";
+    }
     //End code
     });
   });
 }
 getData();
 
-function redirectToGroupName(name){
-    console.log(name);
+function redirectToGroupName(Groups){
+    console.log(Groups);
     window.location="chat.html";
-    localStorage.setItem("group",group_name);
+    localStorage.setItem("group",Groups);
+}
+
+function back(){
+  window.location="home_page.html";
 }

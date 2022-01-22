@@ -36,3 +36,11 @@ body{
     font-size: 18px;
     box-shadow: 5px 5px 5px lightgrey;
 }
+#back{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border:2px solid black;
+    background-image: url("home.jpg");
+    background-size: contain;
+}

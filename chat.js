@@ -41,3 +41,7 @@ function getData() { firebase.database().ref(group_name).on('value', function(sn
 //End code
       } });  }); }
 getData();
+
+function back(){
+      window.location = "community.html";
+}

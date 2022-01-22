@@ -30,20 +30,20 @@ body{
 }
 
 .note{
-    font-size: 16px;
+    font-size: 23px;
     margin: 5px;
 }
 
 #name, #age{
     font-size: 18px;
-    width: 70%;
+    width: 80%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px lightgrey;
     margin: 10px;
 }
 
 select{
-    width: 70%;
+    width: 80%;
     height: 35px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px lightgrey;
@@ -73,4 +73,17 @@ a{
     height: 250px;
     border-radius: 50%;
     border: 2px solid black;
+}
+
+.edit{
+    background-color: #cff4fc;
+    width: 80%;
+    border-radius: 10px;
+    border:#055160 5px solid;
+    box-shadow: 5px 5px 10px lightgrey;
+    margin: 10px;
+}
+
+#data_name, #data_age,#data_gender{
+    font-size: 20px;
 }

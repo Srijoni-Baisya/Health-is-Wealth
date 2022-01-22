@@ -14,6 +14,7 @@ function glucoseCal_fasting(){
 
         if(level_fasting > 79 && level_fasting < 131){
             fasting_compare = "normal";
+            document.getElementById("tips").innerHTML = "Great!! Continue following a healthy routine to stay fit.";
         }
         else if(level_fasting < 80){
             fasting_compare = "low";
@@ -51,6 +52,8 @@ function glucoseCal_fasting(){
         
         if(level_fasting > 69 && level_fasting < 100){
             fasting_compare = "normal";
+            document.getElementById("tips").innerHTML = "Great!! Continue following a healthy routine to stay fit.";
+            
         }
         else if(level_fasting < 70){
             fasting_compare = "low";
@@ -75,6 +78,7 @@ function glucoseCal_afterMeal(){
 
         if(level_afterMeal < 180){
             afterMeal_compare = "normal";
+            document.getElementById("tips").innerHTML = "Great!! Continue following a healthy routine to stay fit.";
         }
         else{
             afterMeal_compare = "high";
@@ -89,6 +93,7 @@ function glucoseCal_afterMeal(){
 
         if(level_afterMeal < 140){
             afterMeal_compare = "normal";
+            document.getElementById("tips").innerHTML = "Great!! Continue following a healthy routine to stay fit.";
         }
         else{
             afterMeal_compare = "high";
