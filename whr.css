@@ -62,3 +62,8 @@ body{
 #whr_img{
     border:2px solid black;
 }
+
+.hint{
+    width: 70%;
+    font-size: 18px;
+}

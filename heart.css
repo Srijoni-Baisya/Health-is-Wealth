@@ -54,3 +54,11 @@ body{
 #tips_array{
     font-size: 17px;
 }
+
+.note{
+    font-size: 18px;
+}
+
+.hint{
+    width: 70%;
+}

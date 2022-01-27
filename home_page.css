@@ -78,9 +78,8 @@ a{
 .edit{
     background-color: #cff4fc;
     width: 80%;
-    border-radius: 10px;
-    border:#055160 5px solid;
-    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgb(216, 216, 216);
     margin: 10px;
 }
 
